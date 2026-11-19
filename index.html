@@ -3,47 +3,99 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kpstn Studios: Scanaria & No Paddle</title>
-<meta name="description" content="Scanaria and No Paddle, free on Google Play. Made by Kpstn Studios.">
+<title>Kpstn Studios: games and apps for Android</title>
+<meta name="description" content="Tiny Courier, Scanaria and No Paddle are on Google Play. Low Gear, Boomlets and Paper Town are on the way. Made by Kpstn Studios.">
 <meta name="theme-color" content="#101418">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Kpstn Studios">
-<meta property="og:description" content="Scanaria and No Paddle, free on Google Play.">
+<meta property="og:description" content="Games and apps for Android. Tiny Courier, Scanaria and No Paddle are on Google Play.">
 <meta property="og:url" content="https://kapstn-studios.github.io/">
-<meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAMIklEQVR42r1ba4xdVRVea+99zn12ZjpthzottMVqW/qQFKJQIRooVWkNFJUiKkqDzxAE4Y/GHyQaMSEGwislAaGAihBL2mCrAkYhUooWsJLiFLCUWihtp9Pp9N5zz2Ov5Y9z7r3nfc8U4k06Ofee19prr2+tbz2KW758GgAgAAAg+geI7Z/83zn4B9w+ZAYIneL2MbePIXwN59zFnSs5eoqjp0IyRERSgegAEJUeIeVlMXHj7+5Iz+FXcvLK8APDqwodc5aaYl9VSNkYCI0RxYf1FBa9K2Wa4rmj+eiVmbroHnPygami+8eqIzWmi56p+OQLwrvcFZ7TH5jckJ72GdsE/zLVNp90xWfdVkTxabaRowvO0kVyVeGnqaTonT/ZBhpfBkQtPhWsWavibPtM2YTQXTETOimwdo5zwRr2J6lg7WknqZbmH6lUDCVh94GANUfxPaw/29IUR22mEFg5/EshsKY4+F7iFrQ0FTbQWEhKLiMCkv8fWPMsTZ0MWNvSR9cDUTAnjbA3WCENrNmWxoEJFfSSYdFzImsGfnqANXPBOT7NBzFP3sEXASt80GDthsgwLfMXEDfEHLCm2+7JUJps1OVYWlRNHPdCkwBrVsSI89Zi4alYWOBUu1ApcSqySuZ0L5kO1kmJXjgsRFcV9SWqIFiTT0QhgQEEYGcvBAAwMjAxA8V3EgWiiCyWAybPwKx1zg6n0ZbgckWcYjPZTLC9KmL7xNF0FTLLUkWaZaaQb0T07JZrNxGxwz66+AEwq32AmPRCkGPVXSoR5c1pFC1q8cyAYsnlNwyctpCZALC7MYiu1Rz548axva/JUpWZGABRuLY1cOpHF138daNSZ+Y2f/RtXozt37Nry/1MGkLbma/4jswqaTP5XhKlso+PLl33g7OuvhkyPrOWf3rz91dqzwUUwEBE0ixf+MP7BucuyroFpbFj4y3l/kHWXnGqywwiafEdZ8LRxI/bmQozTJ1zBpMmx2bSSWlqQ7NkuUakAYARiLUqVetDs5NXMpF2bCY9OHchY7C7Me7IQX4USYOom9BMntIAgPZcFBIUAEPjyAEmRmyfcp1/bbqnMfquUakzEQOgNJpjh5+/98dnXn6dNEw/+2MARKwOniKUgUKQ5wIDU2+bicVc1QOsyVUJZuAgAxWycfjAlhsu8loWSOkbtHYdxzphlOtE1N4+kpXq7m0Pvf6XJ4RhMhMgkiZpmF+686m+U04DAEZkAMYUQEYz1ZA8ARudZLEAufvVV5DXstyWhVIyMzOjVLJU9jxHKJOJApdDYFTqpD3tub7zJNKsvfCzOFvxOccq1WbyWSHHDFlIkBJQApCQwrNbpb5BFLJx9D1VqnCbhzARoPDdDyMgMggZ0kSgbY5S3ZSkKqpcwZ3wHbJ4iuA4uIRCsTC2CUC+XQm3ZfXPmn/ZHU9/8Z6/Di0827EaiCL0Yv9D7T9RQPtI5fb+h15HEH915xrBIcoV8wAUCU/R2hsiMwUnfPMFABSu3Vp+5Y31odmVgemf+MaPiIgBww8P1EvBQ9qLolAKF31XeBkdTxgKdiJJXdq3cVu5kdsAkInIcxAFIIIQnuswIjC6rcb0+UvmfnI1EzHp4WXnDS9bYTcnEAUjoBCAbR0hAwjPsRkQERGF1i5REBOD3Q4VFWMsM+zfBYQUH7qNs24jJlmq7n7ygWP7X7cnxl5+9DancQKFBIFOq3nG6vXKLAdOUoill3yLPA8QSWtrYtxz3MDbEKCQjtV48ZFfWONHx/a/8coT90uzTEQMCdFTaq/M7dCAv75sNk8y/wAUrt00qn2qVG2MvqNKVUbQrlMdnLluw3Olej95HgALpbTrPnbtBYfeeLU+bWjBOZ/a+8qLY4cOSmkw+/uKrtWoTfuQa7dajXGjVA08b17eE0/fBUdMPArWmPV3IM6kSlXt2Nb4EVWpETCidJonFn32q6V6P5NmJibNRNIwl1367cax8TNXrjlv/bWLVlzQajSIiHzaw6wq9eb4qOtYvvScDVYOZwtdWtCNA5yVLqWmTswEAlEoIgJGz3Vq04cXX3yV/xhpmO0r9YdXfG7B+SvnLTnTPXTwyIF91b7+UrXm2LbdaEjDYCZUhs+XUpKq3PpSwM0eXjsrP9PLyz8AmVlI1Tx2ePm668//7s9IayHb3t0+bv1nOwCT5yAwM9vNEyiE732effyRkX88b5YrFCg4NxfL7i2oIpW9pOiAgkgzaaFMz3PL/dOXfn49MwspX9h4y97t20AacxYsOnvlKsdqCrPCzFIZUwZneK5DWtcGpw/Nmbf7hedASHJsQIFCMlE+GUs9JTjkJTnD+ilWUgV0WxagMKpT3FbTtRrDS1cMzJ6PiBOHD+z87R0H97xy8N87X9zym2PelOpHzteeZ5ilvbt2vvTUk8xslso7/7D5+c2Pl2r11okJo1IHIZ1WM4gn3GFBnNL+6WZNwSkRJs8Q9VZd39+JxwwAwnXsqXMWfOG2bVdseG7hqitJ66Nvjxz775ukvR0P/dyxGuX61FJtQHvujk0bdXnI7JvB5J0yb/68ZcuVYWjt7Xr2GU97bstavGrd1b/821X3/GnG6Ys9uwUBvU8BK6RyewB88JJZOf2PZFlKSNU8duTCm+5asuZqAJg4tP+Ra851Las6OFSeMnV034g0y20XjZ5t9Q+fbpQrn/na+v4ZM5nZsZpb77vz7ZHdhlnSWl+zcfvA8DwA+OfvH978k29WB6Zr7UHY7/Vq6ohEAO5+bVMJjoZ0BkBplph8NoNCmcIwreNjo2+NSLPCRMEOE6ty7eAbr1arpXJtChMBEwM7dkt7moikWQIUzMxEwjD9Y4jxhQzFd+QRkLB+4ghQKBEIfcqFQiBiQMLIZ9EVJs2heGdb1scuuHjNd26s9g+cGB9rThyv9Q9c+r2bZp4+33WcoDGEiEIEVA7ygm5aj4MFJ1iHf46it4X5U5hyAwAz+lGJidjP1RkYUJM2K9XzLruyVJ8y9t67v7v9lq333203Gn2nzjln9VrXcTtdxQgnTYA1ladxm6cpzijeZ6VpmEgImIlII7bzWUQQwmf/Tst66emts+Yv/POjD46PHhk9+M7mDbd/fPXaXc8+gxIpmk+ngjW9XBlLKfN6HOGSanijIvmMEsoAIZAZUGjXcRoTfvlEKGPHts1ETyjDZO2a5cr+PSNvvfZTIWWpWsNQQhOxz+y+WLIMp3I4XGZJtZP8ENWmzbzirqdCtTDWrvP3x+7ctfVXZqVOREapjFLajYnFF11+7lduUGa5XYsjRNE3Y5iJfAzEfH9ObyFWG+09BxC+zX+7UAaT1p4nleH7wfDnwutuffOFp63jx1ApANC2Xembtur6W8v1/pSyiucJKYUyuMsockvtkazf90JpUQxiKUHn0QzAMLpvDwqpzBIKkQRic+ywa7dAYHAXCtdpNY8eSqlnCaFMU0h5eN8eYgh8QE5SxfFQG6qNZpRUY0VJ0p5R63t5070oxLS5C5mo40wClmE1Xt7yQKs50eH3KIVjNTbdvP6stdeY1Xq4TM5AiPLIvpHtj95dqk3RkRJvTlG6uxjcsGY4p/+RUmpvq8VuHO9URUPvQGKSZln58bijC0TXbnlOK4hWsX4uc6k2BVCGT2XUzBNllTzql9MlQFHuG2QGRogZLgAQMbOOvJJZlSpGueoXdrnj1fwnAJAmDtWO0xpckNpnCXmhAn2xcPmFtM7qz6XT4IAtF/WS0QZXeouo64UgHeNxxScre5PNPzh3FiGtFZDe+u4mNDDJJjanzfDkFIPzuWSPDixDajc6PHyh0nanR0m1SLGg58xOVpzJAmtWWFBJ0bMm1bKz/pPpwEI2WCfV61exvlhONTjHMNI6nNxz1Ad6K7uHpXXIXGLiJHeoLHMUrTBYUztIMWMuOC6hmPl9grUHjnupkNPAWqDXz5F5oRTRC7jCwgN2nD1/AdmoKzRzoJK7GU+4crVbaFwiF6wxS0uO1+aHSFVQ8XF3VAys2dOweV4yX02dU/64omLOjKy96V3+BGhhSjPppCo0J6o4b7B3MmAtMlT2PsDaORUbNVZFXOHJT4BmgxUmP6cSnYzGuAkVcfD5LfHsEQEoamkFbCY2Ja1i3CNr7i3MdrIi62QpTfbkXAR14f8LgEEtrLuq/wEwbSeO54zG5gAAAABJRU5ErkJggg==">
+<meta property="og:image" content="https://kapstn-studios.github.io/assets/tinycourier-feature.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://kapstn-studios.github.io/">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
-:root{color-scheme:dark;--ink:#101418;--text:#f3efe9;--muted:#b9b2a8}
+:root{color-scheme:dark;--ink:#101418;--panel:#171d23;--line:rgba(255,255,255,.10);--text:#f3efe9;--muted:#b9b2a8;--accent:#ff8a3d}
 *{box-sizing:border-box}
-html{background:var(--ink)}
-body{margin:0;min-height:100vh;color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+html{background:var(--ink);scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5;
   background:
-    radial-gradient(60rem 40rem at -10% -5%,rgba(183,91,31,.38),transparent 60%),
-    radial-gradient(60rem 40rem at 110% 105%,rgba(15,76,92,.55),transparent 60%),
+    radial-gradient(60rem 40rem at -10% -5%,rgba(183,91,31,.34),transparent 60%),
+    radial-gradient(55rem 38rem at 110% 12%,rgba(122,98,176,.30),transparent 60%),
+    radial-gradient(60rem 40rem at 50% 108%,rgba(15,76,92,.50),transparent 60%),
     var(--ink);
-  display:flex;justify-content:center;padding:36px 16px 28px}
-main{width:100%;max-width:440px;display:flex;flex-direction:column;gap:18px}
-header{text-align:center;margin-bottom:6px}
-.studio{margin:0;font-size:13px;font-weight:800;letter-spacing:.22em;color:var(--muted)}
-h1{margin:10px 0 0;font-size:28px;line-height:1.15;font-weight:800;letter-spacing:-.01em}
+  background-attachment:fixed}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid #fff;outline-offset:3px;border-radius:8px}
+.wrap{width:100%;max-width:1120px;margin:0 auto;padding:0 16px}
 
-.card{position:relative;border-radius:26px;padding:22px 20px 20px;overflow:hidden;
+/* top bar */
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-size:13px;font-weight:800;letter-spacing:.22em}
+.brand img{width:30px;height:30px;border-radius:8px}
+.nav{display:flex;gap:4px}
+.nav a{text-decoration:none;font-size:14px;font-weight:700;color:var(--muted);padding:8px 12px;border-radius:999px}
+.nav a:hover{color:var(--text);background:rgba(255,255,255,.08)}
+
+/* hero */
+.hero{padding:10px 0 22px;text-align:center}
+.hero h1{margin:0 auto;max-width:15ch;font-size:clamp(34px,8.4vw,68px);line-height:1.02;font-weight:850;letter-spacing:-.03em;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{margin:12px auto 0;max-width:46ch;font-size:clamp(16px,2.2vw,19px);color:var(--muted);text-wrap:pretty}
+.quick{display:grid;gap:10px;grid-template-columns:1fr;max-width:440px;margin:22px auto 0;padding:0;list-style:none;text-align:left}
+.q{display:flex;align-items:center;gap:12px;min-height:68px;padding:8px 10px 8px 8px;border-radius:18px;text-decoration:none;
+  background:rgba(255,255,255,.07);box-shadow:inset 0 0 0 1px var(--line);transition:background .12s ease,transform .12s ease}
+.q:hover{background:rgba(255,255,255,.12)}
+.q:active{transform:scale(.985)}
+.q img{width:52px;height:52px;border-radius:13px;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.16)}
+.qt{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.25}
+.qt b{font-size:17px;font-weight:800;letter-spacing:-.01em}
+.qt small{font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.get{flex:none;min-width:72px;text-align:center;padding:11px 18px;border-radius:999px;background:var(--accent);color:#2a1705;font-size:15.5px;font-weight:850}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+.label{display:flex;align-items:center;gap:12px;margin:34px 0 16px;font-size:13px;font-weight:800;letter-spacing:.22em;color:var(--muted);text-transform:uppercase}
+.label::after{content:"";flex:1;height:1px;background:var(--line)}
+.label b{color:var(--text);font-weight:800}
+
+/* live app cards */
+.app{position:relative;border-radius:28px;overflow:hidden;margin-bottom:20px;scroll-margin-top:16px;
   box-shadow:0 18px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.12)}
-.card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
-  border:1px solid rgba(255,255,255,.10)}
+.app::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;border:1px solid rgba(255,255,255,.10)}
+.banner{width:100%;height:auto;aspect-ratio:1024/500;object-fit:cover}
+.info{padding:20px 20px 22px}
 .top{display:flex;gap:16px;align-items:center}
 .icon{width:76px;height:76px;border-radius:18px;flex:none;box-shadow:0 0 0 1.5px rgba(255,255,255,.22),0 8px 18px rgba(0,0,0,.35)}
 .name{margin:0;font-size:30px;line-height:1.05;font-weight:850;letter-spacing:-.02em}
-.kicker{margin:6px 0 0;font-size:12.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap}
-.desc{margin:16px 0 0;font-size:16.5px;line-height:1.45}
+.kicker{margin:6px 0 0;font-size:12.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.desc{margin:16px 0 0;font-size:16.5px;line-height:1.45;max-width:52ch}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;padding:0;list-style:none}
 .chips li{font-size:13px;font-weight:700;padding:6px 11px;border-radius:999px}
-.go{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:18px;min-height:56px;
-  border-radius:16px;font-size:18px;font-weight:850;text-decoration:none;
-  transition:transform .12s ease,filter .12s ease}
+.go{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:18px;min-height:56px;padding:0 22px;
+  border-radius:16px;font-size:18px;font-weight:850;text-decoration:none;transition:transform .12s ease,filter .12s ease}
+.go:hover{filter:brightness(1.06)}
 .go:active{transform:scale(.98);filter:brightness(.95)}
 .go svg{width:20px;height:20px;flex:none}
+.policy{display:inline-block;margin-top:12px;font-size:13.5px;opacity:.8}
 .badge{display:inline-block;vertical-align:middle;position:relative;top:-3px;margin-left:8px;
   font-size:11px;font-weight:900;letter-spacing:.12em;font-style:normal;padding:5px 9px;border-radius:999px}
+.shots{display:flex;gap:12px;overflow-x:auto;padding:4px 20px 22px;scroll-snap-type:x proximity;scrollbar-width:thin;
+  scrollbar-color:rgba(255,255,255,.3) transparent;-webkit-overflow-scrolling:touch}
+.shots img{flex:none;height:300px;width:auto;border-radius:14px;scroll-snap-align:center;
+  box-shadow:0 0 0 1px rgba(0,0,0,.18),0 10px 20px rgba(0,0,0,.28)}
+.shots.wide img{height:176px}
+
+/* Tiny Courier: the clay world's lavender sky, with the orange of its moving parts */
+.courier{background:linear-gradient(165deg,#ded3ee 0%,#cdbfe2 55%,#b9a8d4 100%);color:#33284d}
+.courier .kicker{color:#6a4fa0}
+.courier .chips li{background:rgba(51,40,77,.10);color:#33284d}
+.courier .go{background:#ff8a3d;color:#33210f}
+.courier .badge{background:#33284d;color:#f3ecff}
+.courier .icon{box-shadow:0 0 0 1.5px rgba(51,40,77,.18),0 8px 18px rgba(51,40,77,.28)}
+.courier .shots{scrollbar-color:rgba(51,40,77,.35) transparent}
 
 /* Scanaria: the store art's copper */
 .scanaria{background:linear-gradient(140deg,#b75b1f 0%,#94461a 55%,#713813 100%)}
@@ -51,7 +103,6 @@ h1{margin:10px 0 0;font-size:28px;line-height:1.15;font-weight:800;letter-spacin
 .scanaria .desc{color:#fff3e6}
 .scanaria .chips li{background:rgba(255,255,255,.16);color:#fff}
 .scanaria .go{background:#fff;color:#713813}
-.scanaria .badge{background:#f7cfa8;color:#713813}
 
 /* No Paddle: the game's sea, brass and signal orange */
 .paddle{background:linear-gradient(160deg,#0f4c5c 0%,#0b2a3c 60%,#081d29 100%)}
@@ -62,73 +113,297 @@ h1{margin:10px 0 0;font-size:28px;line-height:1.15;font-weight:800;letter-spacin
 .paddle .chips li{background:rgba(232,244,242,.12);color:#e8f4f2}
 .paddle .go{background:#ff6b35;color:#0b2a3c}
 
-footer{text-align:center;color:var(--muted);font-size:13.5px;line-height:1.55;margin-top:6px}
+/* upcoming */
+.soon-grid{display:grid;gap:16px;grid-template-columns:1fr}
+.next{position:relative;border-radius:22px;overflow:hidden;background:var(--panel);scroll-margin-top:16px;
+  box-shadow:0 14px 30px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.08)}
+.next::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;border:1px solid var(--line)}
+.next .banner{aspect-ratio:1024/500}
+.next .body{padding:0 18px 20px}
+.next .head{display:flex;align-items:flex-end;gap:12px;margin-top:-26px;position:relative}
+.next .icon{width:64px;height:64px;border-radius:16px;box-shadow:0 0 0 3px var(--panel),0 8px 18px rgba(0,0,0,.35)}
+.next h3{margin:0 0 4px;font-size:22px;line-height:1.1;font-weight:850;letter-spacing:-.02em}
+.next p{margin:12px 0 0;font-size:15px;line-height:1.5;color:#d9d3ca}
+.next .chips li{background:rgba(255,255,255,.08);color:var(--text)}
+.next .chips .state{background:rgba(255,138,61,.16);color:#ffb37f}
+.paper-icon{display:grid;place-items:center;background:linear-gradient(160deg,#fbf6ea,#e7dcc6);color:#3b6ea5}
+.paper-icon svg{width:36px;height:36px}
+
+/* contact */
+.contact{margin:34px 0 0;padding:30px 20px 24px;border-radius:28px;text-align:center;scroll-margin-top:16px;
+  background:linear-gradient(150deg,rgba(255,138,61,.20),rgba(122,98,176,.18) 60%,rgba(15,76,92,.28));
+  box-shadow:inset 0 0 0 1px var(--line),0 18px 40px rgba(0,0,0,.3)}
+.eyebrow{margin:0;font-size:13px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)}
+.contact h2{margin:8px 0 0;font-size:clamp(28px,6vw,44px);line-height:1.05;font-weight:850;letter-spacing:-.025em}
+.lead{margin:12px auto 0;max-width:44ch;font-size:16.5px;color:#d9d3ca;text-wrap:pretty}
+.ways{display:grid;gap:10px;grid-template-columns:1fr;max-width:440px;margin:22px auto 0;text-align:left}
+.way{display:flex;align-items:center;gap:14px;min-height:64px;padding:10px 16px;border-radius:18px;text-decoration:none;
+  background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px var(--line);transition:background .12s ease,transform .12s ease}
+.way:hover{background:rgba(255,255,255,.14)}
+.way:active{transform:scale(.985)}
+.way svg{width:24px;height:24px;flex:none;color:var(--accent)}
+.way span{display:flex;flex-direction:column;min-width:0;line-height:1.3}
+.way small{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.way b{font-size:16px;font-weight:800;overflow-wrap:anywhere}
+.way.mail{background:var(--accent);color:#2a1705;box-shadow:none}
+.way.mail:hover{background:var(--accent);filter:brightness(1.06)}
+.way.mail svg,.way.mail small{color:#2a1705}
+@media (min-width:900px){.contact{padding:44px 34px 38px}.ways{grid-template-columns:1.5fr 1fr 1fr;max-width:860px}}
+
+footer{margin:40px 0 0;padding:26px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px;line-height:1.6;text-align:center}
 footer p{margin:0 0 10px}
 footer a{color:var(--text);white-space:nowrap}
-@media (max-width:389px){.kicker{font-size:11px;letter-spacing:.06em}.name{font-size:28px}}
-@media (min-width:480px){body{padding-top:56px}h1{font-size:32px}}
-@media (prefers-reduced-motion:reduce){.go{transition:none}}
+
+@media (max-width:389px){.kicker{font-size:11px;letter-spacing:.06em}.name{font-size:27px}.nav a{padding:8px 9px}}
+@media (max-width:479px){.brand{white-space:nowrap}.nav a[href="#apps"]{display:none}.way.mail b{font-size:14.5px}}
+@media (min-width:640px){
+  .wrap{padding:0 24px}
+  .hero{padding:44px 0 40px}
+  .quick{grid-template-columns:repeat(3,1fr);max-width:none}
+  .q{flex-direction:column;text-align:center;padding:18px 12px 16px;gap:10px}
+  .q img{width:72px;height:72px;border-radius:18px}
+  .qt{flex:none;align-items:center}
+  .get{min-width:120px}
+  .soon-grid{grid-template-columns:repeat(3,1fr)}
+  .go{display:inline-flex}
+}
+@media (min-width:900px){
+  .app{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);align-items:stretch}
+  .app.flip .info{order:2}
+  .info{padding:34px 34px 30px;display:flex;flex-direction:column;justify-content:center}
+  .name{font-size:40px}
+  .icon{width:88px;height:88px;border-radius:21px}
+  .desc{font-size:17.5px}
+  .media{display:flex;flex-direction:column;justify-content:center;min-width:0;padding:22px 0}
+  .media .banner{width:calc(100% - 44px);height:auto;flex:none;margin:0 22px 14px;border-radius:16px;box-shadow:0 10px 24px rgba(0,0,0,.28)}
+  .shots{padding:4px 22px 8px}
+  .shots img{height:280px}
+  .shots.wide img{height:168px}
+  .scanaria .shots img{height:400px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.go,.q{transition:none}}
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <p class="studio">KPSTN STUDIOS</p>
-    <h1>Our apps, free on Google&nbsp;Play</h1>
+<div class="wrap">
+
+  <div class="bar">
+    <a class="brand" href="#top" aria-label="Kpstn Studios"><img src="logo.svg" alt="" width="30" height="30">KPSTN STUDIOS</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#apps">Apps</a>
+      <a href="#upcoming">Upcoming</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <header class="hero" id="top">
+    <h1>Games and apps for <em>Android</em>.</h1>
+    <p>Three are on Google&nbsp;Play today. Three more are on the way.</p>
+    <ul class="quick" aria-label="Get our apps on Google Play">
+      <li>
+        <a class="q" data-app="com.manpreetgugga.tinycourier" href="https://play.google.com/store/apps/details?id=com.manpreetgugga.tinycourier&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
+          <img src="assets/tinycourier-icon.webp" alt="" width="52" height="52">
+          <span class="qt"><b>Tiny Courier</b><small>Calm clay puzzle game</small></span>
+          <span class="get">Get<span class="vh"> Tiny Courier on Google Play</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="q" data-app="com.manpreet.fileocr" href="https://play.google.com/store/apps/details?id=com.manpreet.fileocr&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
+          <img src="assets/scanaria-icon.webp" alt="" width="52" height="52">
+          <span class="qt"><b>Scanaria</b><small>Scan, translate, ask</small></span>
+          <span class="get">Get<span class="vh"> Scanaria on Google Play</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="q" data-app="io.github.manpreetgugga.boatify" href="https://play.google.com/store/apps/details?id=io.github.manpreetgugga.boatify&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
+          <img src="assets/nopaddle-icon.webp" alt="" width="52" height="52">
+          <span class="qt"><b>No Paddle</b><small>A sailing voyage</small></span>
+          <span class="get">Get<span class="vh"> No Paddle on Google Play</span></span>
+        </a>
+      </li>
+    </ul>
   </header>
 
-  <section class="card scanaria" aria-labelledby="scanaria-name">
-    <div class="top">
-      <img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgCAIAAAAErfB6AAAhN0lEQVR42u19ebRcR3nn91XVvX17eatWa0OWbNmWLYx3kA1e8L7bEAwJcVh8QpyEnMnAnJxh5sxMTiDJYEgYMsSEJICDMZnBBmPGC8ErWJI3LNuysaNdlmRrsaS39Xpv1Td/3NdP3bfvUnfpfk9Cfd4573W/7nur61ff71vrK3zgo0sAYerR8mfL39j5X/R9T+vH3Qe1/Zr63fmfyb/I9+PNJxTwr+C7NJ+S3weJfN/vuVHnIDt/B7/B5woUfLfAoWrMle88CF9gsONJILTo95EOYFJBSwFwpoG2iW7oOLWg1RqDJrSRFwn4r9+cTv4pwtBF/9+6UhsJbeSMhEqtB79waDsFN4XUdly+B1KrN1edbxDa6Aa+ITkn9wrdo4GTAwQ3cgwiseB6ID4iOTkRtLE4uWPwXedkz99Ck3UjJRuyM6ail602LYcLLlGEcomjkpMLbuT3jXwl5KmINJUjoQ1eSlnayQk17m+AnRw+mSINJ2PYDShM8foKLkXJdNfQhXSCGyVP2dhTsQR3ajJFGk6mOJwcNikzUXC7aCrHtYTTmC9iRnGyzyI4uqDtASd7XhCB8qkTwYjPyTAzBBcyRDeUkyEOJ0MKTu6YTJqSYNTk5LhBx2OcPC2c7BmUiKFudQRXxwuiqCsnCE5lhC4kRZf8Lx9BYNHGFKUiD4pyk5LEHWNOSo/ijpEMFI+TKXRa43AyJYVWkz9E9zi5u9DGUbc03Zwcw5hKx8mB2aTkxtS0hC+miZMhHN1IMtaGX9/UIqBw5hfHOPko4+TgUGXEUsoyF5QwMgVZJgy6YUzFzQWlCPPpJi2EhuE+Mzg5oyQuzKhcUJIVRjEm0wX4N4STY0WFjlxO9txCBLNEWk6GI1lwNY2pbDkZNCJTsdBtUvT0cXJY3OMYJ6eDtukm6aELvTSmiHQWdby4Y2QYKNKYotSCmyTMlwpdjw6eAbmgoAjGDBdc0M0F9Uxwp14S1GVOhqhCmeScDKmrNnsAbc852TN2ocnJkRZsJnHHbnMy9DiJm0RUMhHcdj/4aOPkrMO5R47g+gTpxHTWTMXxcfW/UoQxBZkJLmQpuJBshUVOhUiw1iC7whodT5r0OZmOKk6O44xRmJt0jJOPJk72vEHECab0NO6YmReUvmaqC5wczzKNmoqQFSboKObkyCTM0cjJPlY0ZFQzBZA2Pw8aCQPQF9zIFJvetEYKbrfCfKE+LmigS9ThJv1G5IJSOJc9zgWlmgpqpeg0nOw/hBnHyaCT5usCtL3k5E44RNy440zmZIgU3IzQ7VaYLzUnd86ZiFjUM4mTQ0DqGSeDdj5qujg50E3KRnCJ4oWUIbXG1amZ6o6Pm0nNVPqdFuFwCOhtLgi628GjR4KbLECWeSuBSDj8/OAjhJOnC9qZz8meQKGYcZwcP/LQy7hjl1eYVsZTB442HXyMk48aTu6EQ6RMGGRGy5AK3RmYMIjkwgQJfIoFR0DRne619JNOsas2ERHRfYqt/8XJXTbU8syd06n9GYrI32vVhRYBcepGUy+j567eZ0AEROQrRvE4OSM4wL/wfbo5GREBmZK24zgIRABIoJpTTFHBKUDGDBMZJymTxC44J6WUUyelPIMM84ImR4aMCyYMIgJSWRlT6eEQpGkKJeVk0OZkZEzZDbtWsQZm5YfmI2N+76SQuKNs1KsH9zl2zSwOTM6yPrqM1ydGuTAKQ/N4Lk8Bn/SpQHWHpVR9YrQysl/k8ty0lJKYhYNL6eCgtmzSNHIyADLm1Gu5vqEzPvXnC8+6xCwOImOg8ThMoQDSrpf3737tgW9teeI+YRWASFPdImN2ZWz5+29YdfMf9s1bws0cxHwoJRvlsV3rn3rhnr8pH9gjrDwpNS2cHG1FJ0AX9LnIF11k0m6YfcMf/Iv/O7xsFaR4FGYdd9HJZ5fmLXnp+18xSgOgZKTuQMYbEyOrbr599e1/nerWg3MGFy5fePoFP/nPHy4f2COMHJFKG11PLWz8I6cNxOjbqcfJsSvpOW+Ux875/S8uOvcK5TQA27s5aT8IAJQChONOW71r/ZPje3Zw0/LqqvbBIWNOrTq0dOWlX/hnxgUpCYgJbw1Ejl0YmpsfnLPpifuEmW9hkDicTJnxKAGw1ptRi0XY9or7br/LUTty1PZn+xuo/YLN/yIyZTfyg3MWnHkJkUIuEBmia83G+0FE5JyUYsJY+r6rZaMGiJ4xeL4XInPqlSXnXS5yeVISuUh+a2QoDCK16D0XlOYucuw6MubejfxWeadt2/q+SDjCq9imwGJaKyV8U0bq3U3Ksc3SoLAKiAyTiK6PBrMG5yLjh1VZQNxRASiA/OAcIqLUt0UARCbMfK40SNLx+c4BHEaxOBn8RcUXeDE9nNx6fZzyfRlk8iACxPG9O5RSgBiu6hAAAcf3vJmImINwdi/WFL3ecrLnv8zjVOmi67OUyFeyQz5OBKQLmdL8UdJhwrBrlW1PPyCsguvRQtB6B1BSCqu4be2DtbEDyIWSjv69wlWyiq9xISaPhhd/NSl6MgbjpxJ8saROheqncQOYpFVJhOp3j0gwzR/GhVOvrvm7zx3a/rqRK5BS4WMgIp6zxve++dT/+lO7OsEmLQCtn0i69tX6h6ewYwYpSOO2sYEfJ7dMH3U2I+01J3d456Hli+jUKiO7NjX7FwcHexGUdA7teGPjz+5++5V1ZmlAtmvBwHiylEaxf8svfjKxb/cpV906a9mpjBtBt2m9yNDiE4188fDANNRtVznZN5UgEnByeLAt3JnojNSHWFVEhIgjuzY9/GfXuQoVW2at87uRUnalzDg3SwMq2AP2yQUpaRYH9m1av+fXz4l8iTHRGSvyLGIl5Q1fvn/BaeeRImQYsRq6z8lBNxLZJIJSJ2HCTVilFCgFiCpUryNgrjRAAK3oaqb5lJLCKoKFJKX/x9uxIFJBixqbOpgnFtywSFZg0Ar8O92lFFzIopSVIigAAWnS4I2IOwZio9GhgWQz8ORrUVOrdg14T0f0NHHcEcIh1EMXPFWVyXJBkC57Gu2exDuvKp7gJm36SzE6ysbptRm2rSRR7bpIAi1kmRifMiBDgFZdhhZi1AjomRzoE5mCjKCNtf+lN53uwtCNFV/QQReRIWMkFTAEAGqSdvYVcaGxFkrByaBtKkcudNF7TtaJvYWhGx6ZYtyp15xamRk5ZTeYMIxCn1JOFpwcHX8NtVl6xMnQs053+kySUnBbSga4XZnon7/0lOs+ObjohOqhff/+b/e89eozZrHvcJFGkpopiidz4JcwiGtMpWmY0fKX6D0nQ1CATA/nwIIQZHa1PHz8yiv//Pt985a4L6649KOP33H7pifuNYsDSsqIZZrCIQyWD638PGS1x7NjkCw66Bg5mrY4GXlUHYWH6/TYGZvXDUmhKCJAtvoP/rJv3hJp10lJZTe4YV7wR18uzV3s1GuIjNrvRgEZz5CpoBgGdHDQMXgMFMqC4ZMJfsFRBhqCGxSp705bgtik7ZYM2OXxRWdetPD0C0hJbuSQcWaYJJ38wKyTL/8du1qGoBogSshh8cYZuZQpeJ5TWIUsbn4+RHCp9dOkse2CYppXHcNouyXDU6//NCC2GeaMA9HKKz9enH2cY9encoKeL6wpuHG0MPnm54PELiRbkEhwD6czWObdRzt9XP8BxRRc8lMNkyAy3qiMzT/1vCVnXUJErdV6iEikSvMWn3jJh+3KODJOsbZIkQ560VFo0lmjMTUu6LEgi1Qz4YU75EEtvpJwYVCO45ZAdBT6knQaSklolsJ3jkEhkXJOvfaTTBjUnmNoanBYefWtVv8s6dgAqCu44KNxabKeAJV0nFrFN4ZOUirHweaNQqLKRKGLQNt88XyR1jewaedkUgqFWTm0r3JoLxG11kGSVIA48ubmRmUCufBfXgydannW8ncvO/86AGCce+FlDEjNWrry+NVX1ytjjPGOda/LyVPfERm367WDuzYDYuuSUiSJVGX0nfF33mbCVO1lQL3hZM8bmKbJr29MxeVkAmBc2NWJ137yj4jollUo6SjHZkIox37jZ//ChAClfAeFyJxGbeXVnxBWgZT0j4wRAdCq6z5tmAUlJQFSXE5uH7oixY3cqw/d7dSrTBjKsd0xI3JE9vID366NHWTCaPWREnhBEJOTfa0t/uFT+qHXW2C9s0tKCdPa++8vMsbnnXw2EwYyhow3KmO/+Prntq972Cz2K6U6x4CMOY1a33HHX3D7l0Su4FY3+nhZyEhRafZx+za+vH/rBmHlO3aX4GQpJ5HWdngibuZG39o+snPz4jM/YBZKyBgyRkq+eN+dz3zvDiNf8qkWytTB9R+gb6e73rYlCHA/iIRVeO67X3zzhceOX32NNThn/O3tm39x/8Ftr5ul/qkYhae7NSJrVMtnXfrR/MAcJWUnP7feExlfdf2ntj7ziAddBCSl6vU6IBg5CxGJKEKeiEg6udLAG0/9eN+WV0+65ObBhctqYwe3rHlkx/qnjHwp24RBZGw8ZLbxnpsXdSXFpiG43jcgImONyrhsNJAzcqSwCjxXCMwWIJLjGMX+W77xZHHOArf8I9xzIVI//vx1u15ZYxT6SUkgQETHtkUud9yykxy78faWjYiAnFO7tg/KFjDO7VrVrlUQmVuPbRb7idqVb5rm6UkFF4IkeHqgnZp/KY18n5lHIgJEIuWi60sejPFq5dBp13+6OGcBKeXZy1SfGDXyRcZFmzXH+arrb3vzpV9i0xiWjpPvH7jitj85btlJRLTlV888/v1vKamQMfJOok/QUUkpTEvkCu7yIiJScno52fMfFhpMoazQJe2kBUkppaOUVNJpZgg6xkAAiNJpWAOzT7nq9zrdUlJy38aXnFqlTdMwBkRLz7ti3oozGpUJRA6IdqN+9lU3Lz55Va083qiWT1594YnnXNCoVr11CMG5IKWUkg4pqaSjgtGF7NAF/dludZModP88JXJwfWzUqJBy0AprDaEQADJeL48vu+Da4SUriAgZb3eN+OIzLzSL/S7ztwY9jHzxtGs+IZ0GcmY36sPHLVp+xjmVsVHGOSmStj0we86kOCarYw3wgshvMuO4lF4HVyeQ3Ax0aAtuAsOdQtN8oU/9BHeKG5Vj5IunXXdbaKzQx54GohUXf2ho8UmyUZOOs+Kc8wv9g0pJAETOlVJ7t29Bztr3pCMhhvBPl8N8pCm4vtF1FlKA3im4pBVM8V9KUQXowYLbEXBinDfK40vPu3zeSWd0at/DWHbMCiIjolxp4LRrbi2PHCwNzTrx3PNtN9FEysjl9u3Yum3DS0wY0raV4ygpHSmllMqRCIiMhcUoonJBicJ8FBU8j4BDxM3gZmBMBadoND0xUsSEcep1n44Tz0YAIGkDKSJ2ygd/a/2P/2HJipMH5y6olccZY6SIMb55/XOAUOwfUK1NIBBIUW1iQillWBYoBUlLLzK3kyOrUPDumxZl1A4V4g4oWWdYZLxeHlt0xgdu+p/3AwK0byHx3SOIiHJ8j73ndbJr7n2Q80ZlApG4YbRevVGruua15wpKypF9e9be/3/2bN9sWnl3R0xcdLvSVSnKHBMZ2skQmj1NX+zYkoGhVdffBoyRkh4sfF1hVTlY37aOSCHyyW3iDhk5E8i7adQqlnzGh0AEA3PnD89f+MOv/I/xQwe4G4bMHlpIfJRm0BVEQII7SWZKV3AhKkAWnLd0q67mn3zm0nMv6zCeiYgm9u9u6cgz6VCJiZ1ECnkOaDJYjQi+gWslnaBsaWX0UP/sOcvPPO/5h34kjFzg1pgMfVxIMNsJOt1NNye3jgEBlW2vvPoTIpcnKaEZmyQlkfHXHrrrl9/8r1ZpUDZnnzFWK5cv/MitJ733/bXyBOO8NdDZwe3ui4RutyyffxMCAOF0CW4MnQ1THd/T20pd42TPRRCZXSsPHX/Kios/BEDIWzY3I7Nr5Zd+9A/1iVHlOFOZCWTYqFVfW/P48jPPYaBIuuFMAmQegIVhAgIoQs6UI5V0WjHmjOeLpfGDBze/+DzP5YK2HU8jtBB4blIidGNxsn7u0e1o5G69JbdmvdXzYMyuVU+69LfMQskV2dYY5Jan/9/+ra9a/UNKSs751IxbfYNv/vrlFx57dPVNH6+NvoOcASAohxx7CmJEHHtnLwBww6xXK1axZBUPp4MAoFoef3v7lrX3/+vI/r2GZbUaWYiIjBMCKiBSbfZXdpycuFGvmFGcjIw79YpTqypSyJiRL3EjR1JCs4MOE2Luie+hVseZCBiTduOVn34HGSPVsp99sj2azOULGx5/8N23fL7vpFVAAIzZb71qH9iKwgQiUkpY+b07tj529z/Zjfr8dy2/8rbPIqIiQkSllFUorXvg3mcf/LGZLxi5XCuEjHPHbtTHRtz2PEYub1jFluzINHBy0k53cQVXpxG7B13ExsTI0NJT3nXuZfmB2WN7dmxf98jEO2+bxX6lJAAhQyWd6sh+RFTN/pREEpnY+eKTb21Yl5t8ZztbEnHTKr+z+9UHv7f6k19Qjs24QbIxRdHImF2rnrr6oomRkY3Pr7nmD/5jcXDIrlcniUQpxplpWciYaVmOY7dafLWJseLQ3JWX3jK08PjaxMiWZx7dt+mVXKm/zTrvRqc77aA03nXjwozDF5CkDh4Za1QmTr/pM+d94r+YhT73xfG9u578+ue3rns4VxogZSMT9crY4jMuvPmOB8DdKUqTNTr3fe7anS89bRb7lJSd04CI0mnk+2Z97O8f7Zu7iJR0Dr7Z2Pk8CLN1QyrjXEnJDeHUG250jIgYY4zxH371L97euklYFh3W7rw2Mbb0rIuu/E9fG1q4bNKNrpbX/stX1t3zN4ZVbE04Jul0l5STPU/5TSf3U3bQJrOTGef18ugJF974wc9/gxu5qU4oVt/gstVX7Xj+5xP7d3Mzp5QSRv7Qzk210YMLTz9fGDlkrF4e++WdX9j41P1mob9174In08e5UR07sH/LhoWr3pfvH+aFIQYSaqOKqKVjLAGgknIKXUQ0rfzjP/jOxhefNfOFqf0viMyp14YXLf/IHff2z104NWBhWkvPvmhs365dG541rSKR6oExFS5p+N0bF05v3NEVMWk3PvS1h+eddJaSzlQSVzk2E8aGB7/z6Ff+ON8/SzmOKzuN8uisZactOO29JJ23Xn32wJuvm4UBai/a6tw5gow3KuPF4blLzrgw1ze0b/OGd7/33JXnX1wZHemMZhMRFwIZf/Tuf3zlqcesUql1dxPjojLyzmX/4cvn3vJZd5BTbjRjfP+2N777mUtoct86JeTkjJqni+ni5FazWTbqheH5pTkLXeprVXJANHvpSjNfmkQXgEiZfYOHdm7cv/kVABA5K1ccbK/paWMMakkS5wp9tfHR1372AzdIsm/zK8jECWecbTcanhAYItr1+hP/etera54o9A1MJnrp8KV4zpp9/EpPsAUZB8TS7Pl9cxYe3L3VsPK+geuucrIHABZfvfvlgtrSGhSSIPO9CEnFhcGFCR7nFAEQuZFjTFALWiSlyOWtgVnWwCxu5D3MDO1J3NaHlBK5sPqH84Oz8gPD5dGRPds3I+Md9QIqVyi8/NS/rX/s4dLgkFTSU1KgiLgwzHzRuyyaGocbBoDyMYXidrqD2J3uiIJPH+0ZJ4fv6Qiy2dtqZZQCCuPkQI4hct2YSnn0gps/9r4bbmlUK56mV8hYo1I9/cLL39qyafPLv8q7tluc1FXsbEF2nOx5gYFvRlpv21nIpsJYuc+4U+bfQgza+vUFcYxbOVWrVD7w4Y9fcNPHGm5Zz1Qsu7k+FCnTyl9922cXrzi1OjHOOA8vT/AfZztyYdUQIXs8Sc8pDdiWwDRYwl/mggSX4kg/6U5XaOAnmJO9ixpRKtWo1y/+7U+dd83NlYlxpMkElFJKGCbjwjWmENGu1wzDvOH2P52/dHnVjWNrxOm8YhfJyZSWk8MNIAbxa6Z8BZfiCC6F2Qpaggsdvf98+Ip8CjeVlJf93mfOuuzayvgYw8mkgpLSKhQPvL27PHrIyFluKJtxbjfqVrF04x99btaCRY3a4R3GuiIc0UlWoyMkpeJRatub5Bc9T1YzpX10p+4WcKVhA0Z25kTGGtXqOVfe8J6LrqiMHmKcT6GbL/Xte3PbvX/7xQf/6e/sRl0YBjUxrteqA7PnXnHr73NhKFKotyYp0jGhcGWdoKsC+PIoC1pr3oUWUjMFeoVkFNUxPGSyVOc6J/82qsGFUdKRuUJpxTnvq1fK2ORbJWW+r2/nxl/f+7W/rFeruzdv/Omdf6sUMTHJ1ZzzWqV83PEnLFh+ol2vATIdqxCi6g+TNU9vhaNDcMmXR9l0cXIMrkvKyR7nwfVjkJAASCkiUo5T6B/Y+sr6H339y7VyRQgzXyxt2fDiQ//8vxnjbuSSiEipZlF7uCOqYW11mZN9WjiE565DtHdKTo4zRbE52dfrR85rExNvPPe01ddn5HLCMIpDw68/t+aBO78qbdswTamklDLfN/DGc2t/dte3hJmzCkXGeWl41ltbN729dZNhWU0zO7J3W9c5OcT89O901+VD5MKS0rqdTfSOggrMaCllWNbzP3+QEE85dzUAvPHCM889/BMA5IYhm5FOJWWhb2DDmidr1fJ5V15f6BvY/NKvfvGjH9iOYxgmkdI1pMnLydmp2xhwiFgJg7ipYh10UVOA3d1KoTG/aBsEkSE+89P7XnzsYSCsVSZMK4+Mte9NBalkrlDctP6FbRteNnNWZWKcCREP3UA3KXbDjMRwuC+JLh+Unk27GgQk93CT1qHi4fUxpWGRMVJK+SYemo9csehmFa1iqTW4AW4xCSlXzVuFIimyHTtXLBHJ1nJaBIhYmZRwKjLbCEjtFN0zaIO0KVHghBGQbdfJPWEjhJYRlXRkvS5y+eZuf/+aKZLK7Uzcug6QcbtetWsVLkx3c76aLMAEadd9pl7JwGMbmsuNOjY0p+dkfWhbAJ4+dMOtaDdTO7xw+c1//cMQuXfPsAREx24c2P76hkfueWfL67lSv7d3dHC5tVtMP7z4hNOv+d05x58izDxBFHgEc5athIBKbNKYijB1lBG65OkX3WPBnWxoEkJ1iABgFvuXnHWxJpkvf+/lq67+3Yf/6vaNax6ySs0dKOH9SzlvTIy966wLb/xv3y4Oz4G4D8QIty50KjLnZM8bWJo0X6o3BPhc/pFmpTR/lGPn+4ev+rNvDM5fatdrrecmBcEj6/XS8PzrvnBncXiOchr694Iot8XXTQppmKGzdTYWukCTsWiCFLmg8DY+vgf2xO2d7rY40flhwlCOkx+cffIlNzWqE4g8LMRGwJDblYkT339N/9xFUjpMmPr3CrezsjpkKAIO//j8YZEVWZ0/n0xqwVWfQG75KmTyQCCiocUnIDBPGzJfL0uCmrXkBCJKf/TZ5M4IaFrmFM+Xy4CTfeuiIcNa6CQ0Qsh5vTzm1KtNuzTtVCNibXxENQ3hIDeTmsdXVcdGEJGyWF1E5DRqtYnRVvLogTEV9JRNJycTuXsBuJGbOLBn9ytrEZlyJNFUxjr2DynptrvavPYRbphEFJS3mlT5pAzT2vLsz6VjIzKSMvmtiZRjI+KuV58f3bNTmJZq3+UQ3OkuTg/mKE72LBOWKD8fQ3Ap6MyR1toaIsPMr/n2l0bf2s4NI9kBr5PHvDKOjD/3w7/fsf5ps9BSBx/gw5CSRrG0+9cvrL37q8gYujnEpCfMcsMc27f70W/+d2w/Oy20+yiFS2eIqEZsFyIgAH7dir6YlEvpOdn7iiJmmJVD+7ese6QwNMfqG3KjFsqxY/041cro3p1rv/fVNXfdYVh5iPoWzSVI3Mhte/6J8qH9QwuWMi6IVNxbS7teGTu49bnH7//SH+7fvtHMFzU63WXByQTh8Xn85rULsoUWos6BChoNMu7UqlI2+uctyQ/OQs5RaRQStbxk16uj+3ZXRw9afQNA4NmhHWEVItbGR6z+oYG5i4x8MeyTnovQpCNXGT0wsmcnMja1PWl6ofUBOBvBhbAzR8LNSGSMAGWjKl1d6KvOsX0ZtXxPZIwbOS6Mw8dSxjlHhnEhHVvadU+HBp2pIEDGuchZk157ImMKUhxwFxTBFdPDyQGjmSyiMCxuYITs+k+K2y3PSXa8hpIOMiasAjZ9N898Ynufoc43kKfMffoEN6AZKUWxb1J0KcJDaHuiKDAXpLtbXA9dP+UyWQbkOxWUXc0UpEAXtNH1OTepx5wMKc7V1LtIkn0fPUvzdYOTPf8Vfp/sHSdnBm1GZ+Cmv0Ly86OygpaCD6fsGSdDRAePHnJyiBepgW76mqnMOdnzEJRstdLMENxjnBx2KZqS4Jj5+UyMKchCcCPFDnQFN1Z+XvPo6Rj7xkJGH58FW8cgstK4veZkyoyTE3IYdCU/7/+ReCxIXj+YjnHyjOHkGJOpV0knqJucDBCDoqeJk/XsmkToph1VHGMqqJxWZB5SPsbJ08vJnmuKZOhCRoKrZXbpHF4dcqBVQviT8GE34o6aBl2QqIgE0KZQEjrx5Az0JWSYOEnPyTQNgusf6KAM1S0d4+Tp4WTPRYR+3DFWFDTcuJixnAwzLBeUvlGvOMbJRxkng382KQsfN1nQKl3EOBtaTmzIaLuUMY0pSCu4oW5SfMFNe4abfmFNvMVBXeLkLoaUKTNoOyJZ3eBkSFBKfYyTU3GyZzgiZdwRMo47ZsbJ0AV043JyPFEJF/IkYb4pN6n3nJyRD3M0cHLkHv50LqXw93EhnTHVk9oJTT+KUq9RiJ8wyAzd1C6lgGnOBSURu6A3UlacHHKR3uaC0rOgoCONkzM0pmYgJ2cbLWgJVU5vErdX60OzZqqrnBzdMAOynApxjJOz5WToUj4q6SoX01wzlUXEOHFkKmHNVCIfN/qQoexcygSd7o4STo7ngWQSvoB0SYt0UwG+W1eODk5OHhXKjpOnF1qMS9EZuqeZc3KWcceMOLkLcUeIiy5gYKe7meAFHePk5II79ZeAyOqLLg8oM2MKeoUupItMdc18wY6/sKPT3dEQvoDu5YLihDsy4mSKy8leHfwbAu2RxskZQOv+Fj1GFzJEN2WKjRJpihmrcf2e+lnRxzj5yOJk6OxejcEU3dVOd6HoQlJ0SSM2HHWrjPPz2fbFj8vJHuxFD2iEMuTkNHkY0hxVlN84QzkZ/d0kOiKgTcrJSVygI5yTvW7SEcHJEMmHQZQcP+6o6+8mKv7S4eQM0QUIq4tObrgf3ZycJPaZXWRKH1poNbK6YehGjDxTwU3p44bbZTMn7ghR6HZqaBH0heOeVAypS527fXpByiQuJKh31G7upAMtxoG2zU3KvDtCl075giOolDU7aONysucN/x8KioE02sw7wwAAAABJRU5ErkJggg==" alt="" width="76" height="76">
-      <div>
-        <h2 class="name" id="scanaria-name">Scanaria<span class="badge">NEW</span></h2>
-        <p class="kicker">Scan · Translate · Ask</p>
-      </div>
-    </div>
-    <p class="desc">Every scan tool in one app. Turn photos into text, translate a menu through your camera, ask your documents questions and edit PDFs, all on your phone.</p>
-    <ul class="chips">
-      <li>Photo to text</li><li>Live translate</li><li>PDF editor</li><li>On-device AI</li>
-    </ul>
-    <a class="go" data-app="com.manpreet.fileocr"
-       href="https://play.google.com/store/apps/details?id=com.manpreet.fileocr&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6Z"/></svg>
-      Get it free on Google Play
-    </a>
-  </section>
+  <main>
+    <h2 class="label" id="apps"><b>Out now</b> On Google Play</h2>
 
-  <section class="card paddle" aria-labelledby="paddle-name">
-    <div class="top">
-      <img class="icon" src="data:image/png;base64,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" alt="" width="76" height="76">
-      <div>
-        <h2 class="name" id="paddle-name">No <span>Paddle</span></h2>
-        <p class="kicker">A sailing voyage</p>
+    <section class="app courier" id="tiny-courier" aria-labelledby="courier-name">
+      <div class="info">
+        <div class="top">
+          <img class="icon" src="assets/tinycourier-icon.webp" alt="" width="88" height="88">
+          <div>
+            <h3 class="name" id="courier-name">Tiny Courier<span class="badge">NEW</span></h3>
+            <p class="kicker">A calm clay puzzle game</p>
+          </div>
+        </div>
+        <p class="desc">A little walking mailbox has parcels to deliver. Turn tiny floating islands, slide bridges, ride lifts and bring every parcel to its pad. No timers, no lives, no rush.</p>
+        <ul class="chips">
+          <li>460 levels</li><li>7 worlds</li><li>Plays offline</li><li>Colour-blind friendly</li>
+        </ul>
+        <div>
+          <a class="go" data-app="com.manpreetgugga.tinycourier"
+             href="https://play.google.com/store/apps/details?id=com.manpreetgugga.tinycourier&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6Z"/></svg>
+            Get it on Google Play
+          </a>
+        </div>
+        <a class="policy" href="https://github.com/manpreetgugga/toolcourier/blob/main/PRIVACY.md">Privacy policy</a>
       </div>
+      <div class="media">
+        <img class="banner" src="assets/tinycourier-feature.webp" alt="Tiny Courier: a clay island floating in a lavender sky" width="1024" height="500">
+        <div class="shots" tabindex="0" role="group" aria-label="Tiny Courier screenshots">
+          <img src="assets/tinycourier-2.webp" alt="The Meadow world map" width="405" height="720" loading="lazy">
+          <img src="assets/tinycourier-3.webp" alt="A level with springs" width="405" height="720" loading="lazy">
+          <img src="assets/tinycourier-4.webp" alt="A Harbour level" width="405" height="720" loading="lazy">
+          <img src="assets/tinycourier-5.webp" alt="A Frost Peaks level" width="405" height="720" loading="lazy">
+          <img src="assets/tinycourier-1.webp" alt="The main menu" width="405" height="720" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="app flip scanaria" id="scanaria" aria-labelledby="scanaria-name">
+      <div class="info">
+        <div class="top">
+          <img class="icon" src="assets/scanaria-icon.webp" alt="" width="88" height="88">
+          <div>
+            <h3 class="name" id="scanaria-name">Scanaria</h3>
+            <p class="kicker">Scan · Translate · Ask</p>
+          </div>
+        </div>
+        <p class="desc">Every scan tool in one app. Turn photos into text, translate a menu through your camera, ask your documents questions and edit PDFs, all on your phone.</p>
+        <ul class="chips">
+          <li>Photo to text</li><li>Live translate</li><li>PDF editor</li><li>On-device AI</li>
+        </ul>
+        <div>
+          <a class="go" data-app="com.manpreet.fileocr"
+             href="https://play.google.com/store/apps/details?id=com.manpreet.fileocr&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6Z"/></svg>
+            Get it on Google Play
+          </a>
+        </div>
+      </div>
+      <div class="media">
+        <div class="shots" tabindex="0" role="group" aria-label="Scanaria screenshots">
+          <img src="assets/scanaria-1.webp" alt="Live camera translation of a menu" width="405" height="720" loading="lazy">
+          <img src="assets/scanaria-2.webp" alt="Turning a photo into text" width="405" height="720" loading="lazy">
+          <img src="assets/scanaria-3.webp" alt="Asking a document questions" width="405" height="720" loading="lazy">
+          <img src="assets/scanaria-4.webp" alt="Editing a PDF" width="405" height="720" loading="lazy">
+          <img src="assets/scanaria-5.webp" alt="The language list" width="405" height="720" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="app paddle" id="no-paddle" aria-labelledby="paddle-name">
+      <div class="info">
+        <div class="top">
+          <img class="icon" src="assets/nopaddle-icon.webp" alt="" width="88" height="88">
+          <div>
+            <h3 class="name" id="paddle-name">No <span>Paddle</span></h3>
+            <p class="kicker">A sailing voyage</p>
+          </div>
+        </div>
+        <p class="desc">Your oar is gone. Read the wind, tack and trim, outsail pirates and sail home through storms.</p>
+        <ul class="chips">
+          <li>110 voyages</li><li>11 worlds</li><li>Daily voyage</li>
+        </ul>
+        <div>
+          <a class="go" data-app="io.github.manpreetgugga.boatify"
+             href="https://play.google.com/store/apps/details?id=io.github.manpreetgugga.boatify&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6Z"/></svg>
+            Get it on Google Play
+          </a>
+        </div>
+        <a class="policy" href="https://github.com/manpreetgugga/boatify/blob/main/PRIVACY.md">Privacy policy</a>
+      </div>
+      <div class="media">
+        <img class="banner" src="assets/nopaddle-feature.webp" alt="No Paddle: a small boat sailing by the wind" width="1024" height="500" loading="lazy">
+        <div class="shots wide" tabindex="0" role="group" aria-label="No Paddle screenshots">
+          <img src="assets/nopaddle-1.webp" alt="Outsailing a pirate brig" width="800" height="450" loading="lazy">
+          <img src="assets/nopaddle-2.webp" alt="The kraken" width="800" height="450" loading="lazy">
+          <img src="assets/nopaddle-3.webp" alt="Sailing through a storm" width="800" height="450" loading="lazy">
+          <img src="assets/nopaddle-4.webp" alt="Dolphins alongside the boat" width="800" height="450" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <h2 class="label" id="upcoming"><b>Upcoming</b> In the workshop</h2>
+
+    <div class="soon-grid">
+      <article class="next" id="low-gear">
+        <img class="banner" src="assets/lowgear-feature.webp" alt="Low Gear: a red truck with parcels rolling downhill at sunset" width="1024" height="500" loading="lazy">
+        <div class="body">
+          <div class="head">
+            <img class="icon" src="assets/lowgear-icon.webp" alt="" width="64" height="64" loading="lazy">
+            <h3>Low Gear</h3>
+          </div>
+          <p>A little red delivery truck, a full bed of parcels and one control: the brake. Ease off, brake late and get the load there in one piece.</p>
+          <ul class="chips"><li class="state">Coming soon</li><li>One-thumb driving</li><li>5 routes</li></ul>
+        </div>
+      </article>
+
+      <article class="next" id="boomlets">
+        <img class="banner" src="assets/boomlets-feature.webp" alt="Boomlets: Pip the sprout beside a fizzy pod" width="1024" height="500" loading="lazy">
+        <div class="body">
+          <div class="head">
+            <img class="icon" src="assets/boomlets-icon.webp" alt="" width="64" height="64" loading="lazy">
+            <h3>Boomlets</h3>
+          </div>
+          <p>Help Pip drop fizzy pods, blast crates and outsmart critters across floating worlds, each with its own twist and a boss at the end.</p>
+          <ul class="chips"><li class="state">Coming soon</li><li>25 worlds</li><li>Boss fights</li></ul>
+        </div>
+      </article>
+
+      <article class="next" id="paper-town">
+        <img class="banner" src="assets/papertown-feature.webp" alt="Paper Town: a canal town built from notebook paper" width="1024" height="500" loading="lazy">
+        <div class="body">
+          <div class="head">
+            <div class="icon paper-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" d="M21 3 3 10.2l6.8 3L21 3Zm0 0-7.2 18-4-7.800"/></svg>
+            </div>
+            <h3>Paper Town</h3>
+          </div>
+          <p>A folded paper letter crosses a pop-up book of paper worlds, refolding into origami shapes to get past whatever blocks the way.</p>
+          <ul class="chips"><li class="state">In development</li><li>3D adventure</li><li>Origami folds</li></ul>
+        </div>
+      </article>
     </div>
-    <p class="desc">Your oar is gone. Read the wind, tack and trim, outsail pirates and sail home through storms.</p>
-    <ul class="chips">
-      <li>110 voyages</li><li>11 worlds</li><li>Daily voyage</li>
-    </ul>
-    <a class="go" data-app="io.github.manpreetgugga.boatify"
-       href="https://play.google.com/store/apps/details?id=io.github.manpreetgugga.boatify&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6Z"/></svg>
-      Get it free on Google Play
-    </a>
-  </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">Work with us</p>
+      <h2 id="contact-title">Want something built?</h2>
+      <p class="lead">We build Android apps and games from first idea to Google Play. Tell us what you have in mind.</p>
+      <div class="ways">
+        <a class="way mail" href="mailto:manpreetsingh4501@gmail.com?subject=Project%20enquiry%20for%20Kpstn%20Studios">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.500 6.500h17v11h-17zm0 .5 8.500 6 8.500-6"/></svg>
+          <span><small>Email</small><b>manpreetsingh4501@gmail.com</b></span>
+        </a>
+        <a class="way" href="tel:+918308302325">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6.500 3.500h3l1.500 4-2 1.500a11 11 0 0 0 5 5l1.500-2 4 1.500v3a2 2 0 0 1-2 2A15 15 0 0 1 4.500 5.500a2 2 0 0 1 2-2Z"/></svg>
+          <span><small>Call</small><b>+91 83083 02325</b></span>
+        </a>
+        <a class="way" href="tel:+918600703466">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6.500 3.500h3l1.500 4-2 1.500a11 11 0 0 0 5 5l1.500-2 4 1.500v3a2 2 0 0 1-2 2A15 15 0 0 1 4.500 5.500a2 2 0 0 1 2-2Z"/></svg>
+          <span><small>Call</small><b>+91 86007 03466</b></span>
+        </a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>Button not opening the Play Store? Tap ⋮ at the top right, then "Open in Chrome".</p>
     <p>
+      <a href="https://play.google.com/store/apps/details?id=com.manpreetgugga.tinycourier">Tiny Courier on Google Play</a> ·
       <a href="https://play.google.com/store/apps/details?id=com.manpreet.fileocr">Scanaria on Google Play</a> ·
       <a href="https://play.google.com/store/apps/details?id=io.github.manpreetgugga.boatify">No Paddle on Google Play</a>
     </p>
+    <p><a href="https://play.google.com/store/apps/developer?id=Kpstn+Studios">All apps by Kpstn Studios</a></p>
     <p>© 2026 Kpstn Studios</p>
   </footer>
-</main>
+</div>
 <script>
 // On Android, open the Play Store app itself: Instagram's in-app browser
 // would otherwise show the Play website. Elsewhere the plain link stays.
 if (/Android/i.test(navigator.userAgent)) {
-  document.querySelectorAll('a.go[data-app]').forEach(function (a) {
+  document.querySelectorAll('a[data-app]').forEach(function (a) {
     var id = a.getAttribute('data-app');
     var ref = encodeURIComponent('utm_source=instagram&utm_medium=bio');
     a.href = 'intent://details?id=' + id + '&referrer=' + ref +

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kpstn Studios">
+  <rect width="512" height="512" rx="116" fill="#1b232b"/>
+  <rect x="132" y="112" width="78" height="288" rx="10" fill="#f3efe9"/>
+  <path d="M232 250 318 112h92L296 296z" fill="#ff8a3d"/>
+  <path d="M262 304l50-40 98 136h-92z" fill="#f3efe9"/>
+</svg>
