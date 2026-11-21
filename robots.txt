@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kapstn-studios.github.io/sitemap.xml

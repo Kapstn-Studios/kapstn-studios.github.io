@@ -1,0 +1,82 @@
+/* Shared style for the per-game pages (no-paddle/, tiny-courier/, scanaria/). */
+:root{color-scheme:dark;--ink:#101418;--line:rgba(255,255,255,.10);--text:#f3efe9;--muted:#b9b2a8;--accent:#ff8a3d}
+*{box-sizing:border-box}
+html{background:var(--ink);-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55;
+  background:
+    radial-gradient(60rem 40rem at -10% -5%,rgba(183,91,31,.28),transparent 60%),
+    radial-gradient(60rem 40rem at 50% 108%,rgba(15,76,92,.45),transparent 60%),
+    var(--ink);
+  background-attachment:fixed}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:3px solid #fff;outline-offset:3px;border-radius:8px}
+.wrap{width:100%;max-width:960px;margin:0 auto;padding:0 16px}
+
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-size:13px;font-weight:800;letter-spacing:.22em;white-space:nowrap}
+.brand img{width:30px;height:30px;border-radius:8px}
+.nav a{text-decoration:none;font-size:14px;font-weight:700;color:var(--muted);padding:8px 12px;border-radius:999px;white-space:nowrap}
+.nav a:hover{color:var(--text);background:rgba(255,255,255,.08)}
+
+.hero{border-radius:28px;overflow:hidden;padding:24px 20px 22px;
+  box-shadow:0 18px 40px rgba(0,0,0,.35),inset 0 0 0 1px rgba(255,255,255,.10)}
+.top{display:flex;gap:16px;align-items:center}
+.icon{width:72px;height:72px;border-radius:17px;flex:none;box-shadow:0 0 0 1.5px rgba(255,255,255,.22),0 8px 18px rgba(0,0,0,.35)}
+.hero h1{margin:0;font-size:clamp(25px,6vw,40px);line-height:1.1;font-weight:850;letter-spacing:-.02em;text-wrap:balance}
+.lede{margin:16px 0 0;font-size:17px;line-height:1.5;max-width:62ch;text-wrap:pretty}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;padding:0;list-style:none}
+.chips li{font-size:13px;font-weight:700;padding:6px 11px;border-radius:999px}
+.go{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:18px;min-height:56px;padding:0 22px;
+  border-radius:16px;font-size:18px;font-weight:850;text-decoration:none;transition:filter .12s ease,transform .12s ease}
+.go:hover{filter:brightness(1.06)}
+.go:active{transform:scale(.98)}
+.go svg{width:20px;height:20px;flex:none}
+
+.banner{width:100%;aspect-ratio:1024/500;object-fit:cover;border-radius:20px;margin:20px 0 0;
+  box-shadow:0 10px 24px rgba(0,0,0,.28)}
+.shots{display:flex;gap:12px;overflow-x:auto;padding:14px 2px 8px;scroll-snap-type:x proximity;
+  scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.3) transparent;-webkit-overflow-scrolling:touch}
+.shots img{flex:none;height:300px;width:auto;border-radius:14px;scroll-snap-align:start;
+  box-shadow:0 0 0 1px rgba(0,0,0,.18),0 10px 20px rgba(0,0,0,.28)}
+.shots.wide img{height:176px}
+
+.body h2{margin:34px 0 0;font-size:clamp(21px,4.4vw,26px);line-height:1.2;font-weight:850;letter-spacing:-.015em}
+.body p{margin:10px 0 0;max-width:68ch;color:#e4ded6}
+.body ul{margin:10px 0 0;padding-left:20px;max-width:68ch;color:#e4ded6}
+.body li{margin:6px 0}
+.body b{color:var(--text)}
+.links{margin-top:14px;font-size:13.5px}
+.links a{opacity:.85}
+.cta{margin:34px 0 0}
+
+footer{margin:44px 0 0;padding:26px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px;line-height:1.7;text-align:center}
+footer p{margin:0 0 10px}
+footer a{color:var(--text)}
+
+@media (min-width:640px){
+  .wrap{padding:0 24px}
+  .hero{padding:34px 34px 30px}
+  .icon{width:96px;height:96px;border-radius:22px}
+  .go{display:inline-flex}
+  .shots.wide img{height:220px}
+}
+@media (prefers-reduced-motion:reduce){.go{transition:none}}
+
+/* Tiny Courier: lavender clay sky, orange moving parts */
+.courier .hero{background:linear-gradient(165deg,#ded3ee 0%,#cdbfe2 55%,#b9a8d4 100%);color:#33284d}
+.courier .hero .icon{box-shadow:0 0 0 1.5px rgba(51,40,77,.18),0 8px 18px rgba(51,40,77,.28)}
+.courier .chips li{background:rgba(51,40,77,.10);color:#33284d}
+.courier .go{background:#ff8a3d;color:#33210f}
+
+/* Scanaria: copper */
+.scanaria .hero{background:linear-gradient(140deg,#b75b1f 0%,#94461a 55%,#713813 100%)}
+.scanaria .lede{color:#fff3e6}
+.scanaria .chips li{background:rgba(255,255,255,.16);color:#fff}
+.scanaria .go{background:#fff;color:#713813}
+
+/* No Paddle: sea, brass and signal orange */
+.paddle .hero{background:linear-gradient(160deg,#0f4c5c 0%,#0b2a3c 60%,#081d29 100%)}
+.paddle .lede{color:#e8f4f2}
+.paddle .chips li{background:rgba(232,244,242,.12);color:#e8f4f2}
+.paddle .go{background:#ff6b35;color:#0b2a3c}
