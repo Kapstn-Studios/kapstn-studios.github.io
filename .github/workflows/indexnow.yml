@@ -1,0 +1,50 @@
+name: IndexNow
+
+# After each push to main, wait until GitHub Pages serves it, then tell the
+# IndexNow search engines (Bing, Yandex and others) which pages changed.
+# Pushes that change no page (images, CSS, this workflow) send nothing.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Send every page in sitemap.xml plus llms.txt"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Get the site
+        env:
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+        run: |
+          git clone --quiet "https://github.com/$REPO.git" site
+          git -C site checkout --quiet "$SHA"
+
+      - name: Report changed pages
+        if: github.event_name == 'push'
+        working-directory: site
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: python3 .github/scripts/indexnow.py --changed "$BEFORE" "$AFTER"
+
+      - name: Report pages (manual run)
+        if: github.event_name == 'workflow_dispatch'
+        working-directory: site
+        env:
+          ALL: ${{ inputs.all }}
+        run: |
+          if [ "$ALL" = "true" ]; then
+            python3 .github/scripts/indexnow.py --all
+          else
+            python3 .github/scripts/indexnow.py --changed HEAD~1 HEAD
+          fi
