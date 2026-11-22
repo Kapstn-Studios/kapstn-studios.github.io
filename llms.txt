@@ -26,6 +26,7 @@ All three apps are on Google Play for Android, and none needs an account. Each p
 ## Optional
 
 - [Studio home page](https://kapstn-studios.github.io/)
+- [Kpstn Studios on YouTube](https://www.youtube.com/@KapstnStudios/shorts): short gameplay videos of the studio's games.
 - [Work with Kpstn Studios](https://kapstn-studios.github.io/#contact): Android apps and games built from first idea to Google Play.
 - [Tiny Courier privacy policy](https://github.com/manpreetgugga/toolcourier/blob/main/PRIVACY.md)
 - [No Paddle privacy policy](https://github.com/manpreetgugga/boatify/blob/main/PRIVACY.md)
