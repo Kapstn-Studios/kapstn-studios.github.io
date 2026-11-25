@@ -1,4 +1,4 @@
-/* Shared style for the per-game pages (no-paddle/, tiny-courier/, scanaria/). */
+/* Shared style for the per-game pages (no-paddle/, tiny-courier/, scanaria/, boomlets/). */
 :root{color-scheme:dark;--ink:#101418;--line:rgba(255,255,255,.10);--text:#f3efe9;--muted:#b9b2a8;--accent:#ff8a3d}
 *{box-sizing:border-box}
 html{background:var(--ink);-webkit-text-size-adjust:100%}
@@ -82,3 +82,9 @@ footer a{color:var(--text)}
 .paddle .lede{color:#e8f4f2}
 .paddle .chips li{background:rgba(232,244,242,.12);color:#e8f4f2}
 .paddle .go{background:#ff6b35;color:#0b2a3c}
+
+/* Boomlets: sky-to-cream backdrop, Pip's pod yellow */
+.boom .hero{background:linear-gradient(170deg,#a9cbe0 0%,#cfe6d2 50%,#fff4e2 100%);color:#2e2a4a}
+.boom .hero .icon{box-shadow:0 0 0 1.5px rgba(46,42,74,.18),0 8px 18px rgba(46,42,74,.28)}
+.boom .chips li{background:rgba(46,42,74,.10);color:#2e2a4a}
+.boom .go{background:#ffd166;color:#2e2a4a;box-shadow:0 5px 0 #c99a3c}

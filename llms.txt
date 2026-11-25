@@ -2,11 +2,11 @@
 
 > Kpstn Studios makes Android games and apps on Google Play: Boomlets, a cozy 3D puzzle arcade game; Tiny Courier, a relaxing 3D puzzle game; No Paddle, a sailing boat game; and Scanaria, an OCR app and document scanner. Two more games are on the way.
 
-All four apps are on Google Play for Android, and none needs an account. The Tiny Courier, No Paddle and Scanaria pages below have the full details and a "Good to know" section that answers common questions; Boomlets has its own site.
+All four apps are on Google Play for Android, and none needs an account. Each page below has the full details and a "Good to know" section that answers common questions.
 
 ## Games and apps
 
-- [Boomlets](https://manpreetgugga.github.io/boomlets/): A cozy 3D puzzle arcade game. Help Pip, a little sprout with a big fizz, clear 25 floating worlds: drop a fizzy pod, step back and watch it pop in a plus-shaped blast that breaks crates, sets off other pods and sends critters packing. 150 levels, 25 boss battles, 450 stars, one-finger controls (tap to walk, double-tap to drop a pod), and every world adds a new twist such as conveyor belts, tides, ice, mirrors or magnets. Plays offline with no account. Free to play with ads: a short ad for an extra life or to open a new world early, and now and then an ad between levels.
+- [Boomlets](https://kapstn-studios.github.io/boomlets/): A cozy 3D puzzle arcade game. Help Pip, a little sprout with a big fizz, clear 25 floating worlds: drop a fizzy pod, step back and watch it pop in a plus-shaped blast that breaks crates, sets off other pods and sends critters packing. 150 levels, 25 boss battles, 450 stars, one-finger controls (tap to walk, double-tap to drop a pod), and every world adds a new twist such as conveyor belts, tides, ice, mirrors or magnets. Plays offline with no account. Free to play with ads: a short ad for an extra life or to open a new world early, and now and then an ad between levels.
 - [Tiny Courier](https://kapstn-studios.github.io/tiny-courier/): A calm, cozy 3D logic puzzle game. A little walking mailbox has parcels to deliver: turn floating clay islands, slide bridges, ride lifts and bring every parcel to the pad of its colour. 460 levels in 7 worlds, no timers, no lives, hints and undo, colour-blind friendly, and the puzzles play offline. Free to download. The first 20 levels have no ads; after that a short ad plays now and then between levels, never in the middle of a puzzle and never as a banner.
 - [No Paddle](https://kapstn-studios.github.io/no-paddle/): A sailing boat game about reading the wind, between a sailing game and a light sailing simulator. Your oar is gone, so tack upwind, trim the sail and sail home past reefs, whirlpools, storms and pirates. 110 voyages across 11 worlds, regattas against three rival boats, a new Daily Voyage every day and five boats up to a three-masted galleon. Free to download, supported by ads, with no in-app purchases.
 - [Scanaria](https://kapstn-studios.github.io/scanaria/): An OCR app and document scanner. Image to text with on-device OCR (Latin, Chinese, Devanagari, Japanese and Korean scripts), scan to searchable PDF, edit PDFs, translate scanned text, scan and make QR codes, and ask questions about your documents with a language model that runs on the phone. Text scanning works offline; translation and the AI assistant need a one-time download. Photos and scans are processed on the phone and not uploaded. All features are currently free.
@@ -29,6 +29,7 @@ All four apps are on Google Play for Android, and none needs an account. The Tin
 - [Studio home page](https://kapstn-studios.github.io/)
 - [Kpstn Studios on YouTube](https://www.youtube.com/@KapstnStudios/shorts): short gameplay videos of the studio's games.
 - [Work with Kpstn Studios](https://kapstn-studios.github.io/#contact): Android apps and games built from first idea to Google Play.
+- [Boomlets website](https://manpreetgugga.github.io/boomlets/): the game's own site, with the boss gallery.
 - [Boomlets privacy policy](https://manpreetgugga.github.io/boomlets/privacy.html)
 - [Tiny Courier privacy policy](https://github.com/manpreetgugga/toolcourier/blob/main/PRIVACY.md)
 - [No Paddle privacy policy](https://github.com/manpreetgugga/boatify/blob/main/PRIVACY.md)
