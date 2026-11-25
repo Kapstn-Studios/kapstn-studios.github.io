@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="google-site-verification" content="OB6ThSI40kOqImdfjRUzBG8xYrJgDSYW6yJHjaOwfGw">
 <title>Sailing game, puzzle game and OCR app for Android | Kpstn Studios</title>
-<meta name="description" content="No Paddle, a sailing boat game. Tiny Courier, a relaxing 3D puzzle game that plays offline. Scanaria, an OCR app and document scanner. All on Google Play.">
+<meta name="description" content="No Paddle, a sailing boat game. Tiny Courier, a relaxing 3D puzzle game that plays offline. Scanaria, an OCR app and document scanner. Boomlets, a pod-blasting puzzle arcade game. All on Google Play.">
 <meta name="theme-color" content="#101418">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kpstn Studios: Android games and apps">
-<meta property="og:description" content="A sailing boat game, a relaxing 3D puzzle game and an OCR scanner app for Android, all on Google Play.">
+<meta property="og:description" content="A sailing boat game, a relaxing 3D puzzle game, a pod-blasting puzzle arcade game and an OCR scanner app for Android, all on Google Play.">
 <meta property="og:url" content="https://kapstn-studios.github.io/">
 <meta property="og:image" content="https://kapstn-studios.github.io/assets/tinycourier-feature.webp">
 <meta name="twitter:card" content="summary_large_image">
@@ -114,6 +114,16 @@ a{color:inherit}
 .paddle .chips li{background:rgba(232,244,242,.12);color:#e8f4f2}
 .paddle .go{background:#ff6b35;color:#0b2a3c}
 
+/* Boomlets: the game's sky-to-cream backdrop, with Pip's pod yellow */
+.boom{background:linear-gradient(170deg,#a9cbe0 0%,#cfe6d2 50%,#fff4e2 100%);color:#2e2a4a}
+.boom .name{font-weight:900}
+.boom .kicker{color:#3d7f77}
+.boom .chips li{background:rgba(46,42,74,.10);color:#2e2a4a}
+.boom .go{background:#ffd166;color:#2e2a4a;box-shadow:0 5px 0 #c99a3c}
+.boom .badge{background:#2e2a4a;color:#ffd166}
+.boom .icon{box-shadow:0 0 0 1.5px rgba(46,42,74,.18),0 8px 18px rgba(46,42,74,.28)}
+.boom .shots{scrollbar-color:rgba(46,42,74,.35) transparent}
+
 /* upcoming */
 .soon-grid{display:grid;gap:16px;grid-template-columns:1fr}
 .next{position:relative;border-radius:22px;overflow:hidden;background:var(--panel);scroll-margin-top:16px;
@@ -160,15 +170,16 @@ footer a{color:var(--text);white-space:nowrap}
 @media (min-width:640px){
   .wrap{padding:0 24px}
   .hero{padding:44px 0 40px}
-  .quick{grid-template-columns:repeat(3,1fr);max-width:none}
+  .quick{grid-template-columns:repeat(2,1fr);max-width:none}
   .q{flex-direction:column;text-align:center;padding:18px 12px 16px;gap:10px}
   .q img{width:72px;height:72px;border-radius:18px}
   .qt{flex:none;align-items:center}
   .get{min-width:120px}
-  .soon-grid{grid-template-columns:repeat(3,1fr)}
+  .soon-grid{grid-template-columns:repeat(2,1fr)}
   .go{display:inline-flex}
 }
 @media (min-width:900px){
+  .quick{grid-template-columns:repeat(4,1fr)}
   .app{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);align-items:stretch}
   .app.flip .info{order:2}
   .info{padding:34px 34px 30px;display:flex;flex-direction:column;justify-content:center}
@@ -248,8 +259,15 @@ footer a{color:var(--text);white-space:nowrap}
 
   <header class="hero" id="top">
     <h1>Games and apps for <em>Android</em>.</h1>
-    <p>A sailing boat game, a relaxing puzzle game and an OCR scanner app are on Google&nbsp;Play today. Three more are on the way.</p>
+    <p>A pod-blasting puzzle game, a sailing boat game, a relaxing puzzle game and an OCR scanner app are on Google&nbsp;Play today. Two more are on the way.</p>
     <ul class="quick" aria-label="Get our apps on Google Play">
+      <li>
+        <a class="q" data-app="com.manpreetgugga.boomlets" href="https://play.google.com/store/apps/details?id=com.manpreetgugga.boomlets&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
+          <img src="assets/boomlets-icon.webp" alt="" width="52" height="52">
+          <span class="qt"><b>Boomlets</b><small>Pod blast puzzle game</small></span>
+          <span class="get">Get<span class="vh"> Boomlets on Google Play</span></span>
+        </a>
+      </li>
       <li>
         <a class="q" data-app="com.manpreetgugga.tinycourier" href="https://play.google.com/store/apps/details?id=com.manpreetgugga.tinycourier&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
           <img src="assets/tinycourier-icon.webp" alt="" width="52" height="52">
@@ -277,12 +295,47 @@ footer a{color:var(--text);white-space:nowrap}
   <main>
     <h2 class="label" id="apps"><b>Out now</b> On Google Play</h2>
 
+    <section class="app flip boom" id="boomlets" aria-labelledby="boom-name">
+      <div class="info">
+        <div class="top">
+          <img class="icon" src="assets/boomlets-icon.webp" alt="" width="88" height="88">
+          <div>
+            <h3 class="name" id="boom-name">Boomlets<span class="badge">NEW</span></h3>
+            <p class="kicker">A cozy 3D puzzle arcade game</p>
+          </div>
+        </div>
+        <p class="desc">Help Pip, a little sprout with a big fizz, clear 25 floating worlds. Drop a fizzy pod, step back and watch it pop in a plus-shaped blast that breaks crates, sets off other pods and sends critters packing. Every world adds a new twist and ends with a boss.</p>
+        <ul class="chips">
+          <li>150 levels</li><li>25 worlds</li><li>25 bosses</li><li>One-finger controls</li><li>Plays offline</li>
+        </ul>
+        <div>
+          <a class="go" data-app="com.manpreetgugga.boomlets"
+             href="https://play.google.com/store/apps/details?id=com.manpreetgugga.boomlets&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dbio">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6Z"/></svg>
+            Get it on Google Play
+          </a>
+        </div>
+        <a class="policy" href="https://manpreetgugga.github.io/boomlets/">More about Boomlets</a> <span class="policy" aria-hidden="true">&nbsp;·&nbsp;</span> <a class="policy" href="https://manpreetgugga.github.io/boomlets/privacy.html">Privacy policy</a>
+      </div>
+      <div class="media">
+        <img class="banner" src="assets/boomlets-feature.webp" alt="Boomlets: Pip the sprout beside a fizzy pod" width="1024" height="500">
+        <div class="shots" tabindex="0" role="group" aria-label="Boomlets screenshots">
+          <img src="assets/boomlets-1.webp" alt="Pip drops a pod next to a critter: pop pods, outsmart the critters" width="540" height="960" loading="lazy">
+          <img src="assets/boomlets-2.webp" alt="A Boomlets boss battle" width="540" height="960" loading="lazy">
+          <img src="assets/boomlets-3.webp" alt="Six of the 25 bosses" width="540" height="960" loading="lazy">
+          <img src="assets/boomlets-4.webp" alt="25 worlds, each with its own twist" width="540" height="960" loading="lazy">
+          <img src="assets/boomlets-5.webp" alt="Tap to walk, double-tap to drop a pod" width="540" height="960" loading="lazy">
+          <img src="assets/boomlets-6.webp" alt="150 levels and 450 stars to collect" width="540" height="960" loading="lazy">
+        </div>
+      </div>
+    </section>
+
     <section class="app courier" id="tiny-courier" aria-labelledby="courier-name">
       <div class="info">
         <div class="top">
           <img class="icon" src="assets/tinycourier-icon.webp" alt="" width="88" height="88">
           <div>
-            <h3 class="name" id="courier-name">Tiny Courier<span class="badge">NEW</span></h3>
+            <h3 class="name" id="courier-name">Tiny Courier</h3>
             <p class="kicker">A relaxing 3D puzzle game</p>
           </div>
         </div>
@@ -389,18 +442,6 @@ footer a{color:var(--text);white-space:nowrap}
           </div>
           <p>A little red delivery truck, a full bed of parcels and one control: the brake. Ease off, brake late and get the load there in one piece.</p>
           <ul class="chips"><li class="state">Coming soon</li><li>One-thumb driving</li><li>5 routes</li></ul>
-        </div>
-      </article>
-
-      <article class="next" id="boomlets">
-        <img class="banner" src="assets/boomlets-feature.webp" alt="Boomlets: Pip the sprout beside a fizzy pod" width="1024" height="500" loading="lazy">
-        <div class="body">
-          <div class="head">
-            <img class="icon" src="assets/boomlets-icon.webp" alt="" width="64" height="64" loading="lazy">
-            <h3>Boomlets</h3>
-          </div>
-          <p>Help Pip drop fizzy pods, blast crates and outsmart critters across floating worlds, each with its own twist and a boss at the end.</p>
-          <ul class="chips"><li class="state">Coming soon</li><li>25 worlds</li><li>Boss fights</li></ul>
         </div>
       </article>
 
